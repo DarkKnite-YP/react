@@ -1,0 +1,32 @@
+.hero-text {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.5;
+    color: white;
+    text-align: right;
+    max-width: 400px; /* Adjust as needed */
+    margin-top: 10px;
+  
+    /* Responsive adjustments */
+    @media (min-width: 640px) {
+      font-size: 30px;
+      line-height: 40px;
+    }
+    
+    @media (min-width: 768px) {
+      font-size: 36px;
+      line-height: 50px;
+    }
+  
+    @media (min-width: 1536px) {
+      font-size: 46px;
+      line-height: 60px;
+      max-width: 600px; /* Adjust as needed */
+    }
+    
+    /* Custom glow effect */
+    text-shadow: 0 0 10px rgba(0, 254, 246, 0.5), 
+                 0 0 20px rgba(11, 255, 121, 0.5), 
+                 0 0 30px rgba(255, 15, 251, 0.5);
+  }
+  
